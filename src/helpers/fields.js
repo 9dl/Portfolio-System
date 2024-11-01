@@ -1,0 +1,32 @@
+export const fields = {
+    "ownerKey": "Exclusive access key for administrators.",
+    "profileID": "Unique identifier for the profile (use lowercase only).",
+    "secretKey": "Secure password used for editing the profile.",
+    "username": "Display name for the user on the profile card.",
+    "role": "User's role or title to be displayed on the profile card.",
+    "description": "Short bio or description to be displayed on the profile card.",
+    "meteor": "Toggle to enable or disable meteor effect (true for enable, false for disable).",
+    "signature": "Personal signature or quote displayed at the bottom of the profile card.",
+    "avatarSrc": "URL of the user's avatar image.",
+    "bannerSrc": "URL for the banner image displayed at the top of the profile.",
+    "backgroundSrc": "Background video URL, typically for music.",
+    "soundtrackTitle": "Title of the background music or video.",
+    "soundtrackSrc": "URL link to the background music or video (e.g., from YouTube).",
+    "floatingImageSrc": "URL for an additional floating image.",
+    "FloatingImage": "Toggle to enable or disable the floating image (true for enable, false for disable).",
+    "discord": "Link to Discord profile (enter 'no' to hide this field).",
+    "gitHub": "Link to GitHub profile (enter 'no' to hide this field).",
+    "cursor": "Choose a cursor style (default, donut).",
+    "instagram": "Link to Instagram profile (enter 'no' to hide this field).",
+    "telegram": "Link to Telegram profile (enter 'no' to hide this field).",
+    "epicGames": "Link to Epic Games profile (enter 'no' to hide this field).",
+    "youTube": "Link to YouTube channel (enter 'no' to hide this field).",
+    "twitch": "Link to Twitch channel (enter 'no' to hide this field).",
+    "twitter": "Link to Twitter profile (enter 'no' to hide this field).",
+    "steam": "Link to Steam profile (enter 'no' to hide this field).",
+    "customLink": "Custom URL link (enter 'no' to hide this field).",
+    "customLinkTooltip": "Tooltip text for the custom link.",
+    "openInNewTab": "Specifies whether social media links open in a new tab (true for new tab, false for same tab)."
+};
+
+export  const excludedKeys = ["ownerKey", "secretKey", "profileID", "role"];
