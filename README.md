@@ -1,4 +1,4 @@
-*most of the stuff i deleted, since skids will copy and sell it :>*
+(Most of the stuff I deleted, since skids will copy and sell it :> This project is from last year.)
 # Simple Portfolio System
 
 Welcome to the Simple Portfolio System! This application, built using NextJS 14 and PostgresSQL, helps you create and manage your portfolios easily.
